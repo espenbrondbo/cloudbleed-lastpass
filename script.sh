@@ -11,7 +11,7 @@ python3 extract-domains.py > output
 for url in $(cat output); do
 	if 
 		grep -x "$url" affected-sites.txt >/dev/null; then
-		echo "$url is affected";
+		echo $url;
 	fi
 done
 
