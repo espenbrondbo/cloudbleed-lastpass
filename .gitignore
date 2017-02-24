@@ -1,3 +1,4 @@
 *.swp
 .DS_Store
+passwords.csv
 affected-sites.txt
