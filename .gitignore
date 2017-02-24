@@ -1,5 +1,5 @@
 *.swp
 .DS_Store
-passwords.csv
+sites.csv
 affected-sites.txt
 output
