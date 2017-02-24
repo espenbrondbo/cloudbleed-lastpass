@@ -1,7 +1,7 @@
 import csv, tldextract
 
 tlds = set()
-with open('password.csv') as f:
+with open('passwords.csv') as f:
 	reader = csv.DictReader(f)
 	for row in reader:
 		ext = tldextract.extract(row['url'])
